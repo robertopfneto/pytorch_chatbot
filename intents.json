@@ -1,0 +1,200 @@
+{
+    "intents": [
+        {
+            "tag": "cumprimento",
+            "patterns": [
+                "Oi",
+                "Olá",
+                "Tudo bem?",
+                "Tem alguém aí?",
+                "Bom dia",
+                "Boa tarde"
+            ],
+            "responses": [
+                "Oi! :-)",
+                "Olá, obrigado por visitar!",
+                "Oi, como posso te ajudar?",
+                "Olá, em que posso ajudar?"
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "Tchau",
+                "Até logo",
+                "Adeus",
+                "Estou indo embora",
+                "Tenha um bom dia"
+            ],
+            "responses": [
+                "Até logo!",
+                "Adeus!",
+                "Se cuida!"
+            ]
+        },
+        {
+            "tag": "agradecimento",
+            "patterns": [
+                "Obrigado",
+                "Obrigada",
+                "Valeu",
+                "Muito obrigado"
+            ],
+            "responses": [
+                "Fico feliz em ajudar!",
+                "Sempre à disposição!",
+                "De nada!",
+                "Conte comigo!"
+            ]
+        },
+        {
+            "tag": "sem_resposta",
+            "patterns": [],
+            "responses": [
+                "Desculpe, não entendi.",
+                "Pode reformular sua pergunta?",
+                "Não tenho certeza se entendi."
+            ]
+        },
+        {
+            "tag": "opcoes",
+            "patterns": [
+                "O que você pode fazer?",
+                "Que tipo de ajuda você oferece?",
+                "Como você pode me ajudar?",
+                "Quais são suas funções?"
+            ],
+            "responses": [
+                "Posso ajudar com suas perguntas, fornecer suporte e auxiliar em várias tarefas.",
+                "Estou aqui para responder suas perguntas e oferecer orientação.",
+                "Posso ajudar em uma ampla gama de tópicos, é só perguntar!"
+            ]
+        },
+        {
+            "tag": "pecas_carro",
+            "patterns": [
+                "Vocês vendem peças de carro?",
+                "Preciso de uma peça para meu carro",
+                "Você tem peças para carros?",
+                "Onde encontro peças de reposição?",
+                "Quais peças de carro vocês têm?"
+            ],
+            "responses": [
+                "Sim, temos uma variedade de peças de carro. Qual peça você procura?",
+                "Podemos te ajudar a encontrar a peça certa para seu carro. Qual é o modelo e ano?",
+                "Temos peças de reposição para diversos modelos. Entre em contato para mais informações!"
+            ]
+        },
+        {
+            "tag": "problemas_carro",
+            "patterns": [
+                "Meu carro não liga",
+                "O motor do carro está fazendo barulho",
+                "O que fazer quando o carro está superaquecendo?",
+                "Estou com problema na bateria do carro",
+                "Os freios do carro estão falhando",
+                "O ar-condicionado do carro não funciona",
+                "As luzes do painel estão acesas",
+                "Meu carro está consumindo muito combustível",
+                "Estou sentindo um cheiro estranho no carro",
+                "O câmbio automático está com dificuldade para mudar",
+                "A direção está vibrando muito",
+                "Ouço um barulho ao frear",
+                "A embreagem está escorregando",
+                "A suspensão do carro parece estar muito dura",
+                "Os pneus estão desgastando de forma irregular",
+                "O carro está puxando para um lado ao dirigir",
+                "A ventoinha do motor não liga",
+                "As marchas estão arranhando",
+                "O carro está demorando para pegar de manhã",
+                "O freio de mão não está segurando",
+                "Tem vazamento de óleo no motor",
+                "O radiador está vazando",
+                "O carro faz um barulho estranho ao acelerar",
+                "Os limpadores de para-brisa não funcionam",
+                "O farol está queimado",
+                "As portas não estão trancando",
+                "O som do carro parou de funcionar",
+                "As rodas estão fazendo barulho ao girar",
+                "O escapamento está soltando fumaça",
+                "O carro perdeu potência durante a subida",
+                "O pedal da embreagem está muito duro",
+                "O velocímetro parou de funcionar",
+                "O freio ABS está ativando sem necessidade",
+                "O motor está desligando sozinho",
+                "O carro está trepidando em baixa velocidade",
+                "As janelas elétricas não estão subindo",
+                "O porta-malas não abre",
+                "A chave do carro não está funcionando",
+                "O alarme do carro dispara sozinho",
+                "Os sensores de estacionamento não estão funcionando",
+                "A buzina parou de funcionar",
+                "O carro está com dificuldade de manter a marcha lenta",
+                "Há um vazamento de combustível",
+                "A luz do airbag está acesa",
+                "O motor está perdendo compressão",
+                "O volante está muito pesado",
+                "O sistema start-stop não está funcionando",
+                "Os amortecedores estão rangendo",
+                "O carro está com problemas na transmissão",
+                "Os cintos de segurança não estão travando",
+                "A ventoinha do ar quente não está funcionando",
+                "O rádio do carro não liga"
+            ],
+            "responses": [
+                "Se o carro não liga, verifique a bateria ou o sistema de ignição. Precisa de ajuda com isso?",
+                "Barulhos no motor podem indicar problemas mecânicos. Recomendo levar a um mecânico especializado.",
+                "Para superaquecimento, pare o carro imediatamente e verifique o nível de líquido de arrefecimento.",
+                "Problemas na bateria podem ser resolvidos com uma recarga ou substituição. Precisa de uma bateria nova?",
+                "Freios falhando são perigosos. Consulte um mecânico urgentemente para evitar acidentes.",
+                "Se o ar-condicionado não funciona, pode ser falta de gás ou um problema no compressor.",
+                "Luzes do painel acesas podem indicar falhas. Use um scanner OBD para diagnosticar o problema.",
+                "Consumo elevado de combustível pode ser causado por filtros sujos ou velas de ignição desgastadas.",
+                "Cheiros estranhos podem vir de vazamentos ou superaquecimento. Verifique imediatamente.",
+                "Problemas no câmbio automático podem indicar falta de fluido ou necessidade de manutenção especializada.",
+                "Vibrações na direção podem ser causadas por alinhamento ou balanceamento inadequados.",
+                "Barulhos ao frear podem ser pastilhas ou discos desgastados. Verifique o sistema de freios.",
+                "Se a embreagem está escorregando, pode ser necessário substituí-la ou ajustar o cabo.",
+                "Suspensão dura pode indicar problemas nos amortecedores ou molas. Consulte um especialista.",
+                "Desgaste irregular nos pneus pode ser resolvido com alinhamento e balanceamento.",
+                "Se o carro está puxando para um lado, verifique a pressão dos pneus ou o alinhamento.",
+                "Ventoinha não ligando pode ser um problema no termostato ou no fusível.",
+                "Marchas arranhando indicam problemas no sincronizador ou falta de fluido de transmissão.",
+                "Dificuldade para ligar de manhã pode ser problema na bateria ou no motor de partida.",
+                "Freio de mão que não segura pode precisar de ajuste no cabo ou substituição das sapatas.",
+                "Vazamento de óleo pode vir de juntas ou vedadores desgastados. Consulte um mecânico.",
+                "Radiador vazando deve ser reparado imediatamente para evitar superaquecimento.",
+                "Barulhos ao acelerar podem ser um problema no escapamento ou nas velas de ignição.",
+                "Verifique o fusível ou motor dos limpadores se não estiverem funcionando.",
+                "Substitua a lâmpada do farol e verifique o circuito elétrico se necessário.",
+                "Problemas de tranca podem ser causados por falhas no sistema elétrico das portas.",
+                "Falha no som pode ser causada por fusível queimado ou falha no sistema de áudio.",
+                "Barulhos nas rodas podem ser rolamentos desgastados ou falta de lubrificação.",
+                "Fumaça no escapamento pode indicar problema no motor ou sistema de exaustão.",
+                "Perda de potência pode ser causada por falhas no sistema de injeção ou combustível.",
+                "Pedal duro pode indicar problemas no sistema hidráulico da embreagem.",
+                "Verifique o sensor do velocímetro ou o cabo de ligação se ele parou de funcionar.",
+                "Freios ABS ativando sem necessidade podem ser problemas nos sensores ou módulo do ABS.",
+                "Motor desligando pode ser causado por falhas na alimentação de combustível ou sistema de ignição.",
+                "Trepidações podem ser causadas por velas sujas ou problemas no sistema de injeção.",
+                "Janelas elétricas podem ter problemas no motor ou no fusível correspondente.",
+                "Porta-malas que não abre pode ser problema na fechadura ou cabo de acionamento.",
+                "Problemas na chave podem ser resolvidos com a substituição da bateria ou reprogramação.",
+                "Alarmes disparando sozinhos podem ser falhas nos sensores ou no módulo central.",
+                "Sensores de estacionamento podem ter mau contato ou problemas na calibração.",
+                "Verifique o fusível ou o botão da buzina se ela não está funcionando.",
+                "Dificuldade na marcha lenta pode ser problemas no corpo de borboleta ou sensores de ar.",
+                "Vazamentos de combustível devem ser tratados imediatamente para evitar riscos.",
+                "Luz do airbag acesa pode indicar problema nos sensores ou no sistema do airbag.",
+                "Perda de compressão no motor pode ser problema nas válvulas ou nos pistões.",
+                "Volante pesado pode ser problema na direção hidráulica ou elétrica.",
+                "Falha no start-stop pode ser falta de carga na bateria ou erro no sistema.",
+                "Amortecedores rangendo podem precisar de substituição ou lubrificação.",
+                "Problemas na transmissão podem ser falta de fluido ou falhas no sistema mecânico.",
+                "Cintos de segurança devem ser verificados e substituídos caso não travem corretamente.",
+                "Ventoinha do ar quente pode ter problemas no motor ou no resistor.",
+                "Falhas no rádio podem ser problemas no fusível ou na conexão de energia."
+            ]
+        }
+    ]
+}
