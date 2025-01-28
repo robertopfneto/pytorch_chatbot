@@ -39,6 +39,9 @@ for (pattern_sentence, tag) in xy:
     label = tags.index(tag)
     y_train.append(label)
 
+x_train = np.array(x_train, dtype=np.float32)
+y_train = np.array(y_train, dtype=np.int64)
+
 x_train = torch.tensor(x_train, dtype=torch.float32)
 y_train = torch.tensor(y_train, dtype=torch.long)
 
@@ -65,13 +68,11 @@ dataset = ChatDataset()
 train_loader = DataLoader(dataset=dataset,
                           batch_size=batch_size,
                           shuffle=True,
-                          num_workers=2)
+                          num_workers=0)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-model = NeuralNet(input_size=input_size,
-                  hidden_size=hidden_size,
-                  output_size=output_size).to(device)
+model = NeuralNet(input_size, hidden_size, output_size).to(device)
 
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
@@ -89,4 +90,4 @@ for epoch in range(num_epochs):
         optimizer.step()
 
     if (epoch + 1) % 1 == 0:
-        print(f'fina loss, loss = {loss.item():.4f}')
+        print(f'final loss, loss = {loss.item():.4f}')
