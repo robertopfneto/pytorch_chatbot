@@ -1,4 +1,4 @@
-# Pytorch Chatbot 
+# Pytorch Chatbot (Not complete)
 
 - A simple project for understand the layers concepts on Pytorch
 
